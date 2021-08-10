@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import ProjetType from "./json/projets";
 //HOME
 import HomeContact from './page/home/Contact';
@@ -41,7 +41,7 @@ const App = () => {
               <ProjetTag data={data} />
               <ProjetContent data={data} />
               <ProjetPicture data={data} />
-              <a className="backToHome bgFullPurple" href="/"><i className="fas fa-arrow-left"></i></a>
+              <Link to={"/"} className="backToHome bgFullPurple"><i className="fas fa-arrow-left"></i></Link>
             </Fragment>
         </div>
         }/>
