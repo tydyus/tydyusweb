@@ -14,7 +14,7 @@ import ProjetContent from './page/projet/Projet';
 import ProjetPicture from './page/projet/Picture';
 
 
-function App() {
+const App = () => {
   const data = require ("./json/projets.json") as Array<ProjetType>;
   return (
     <Router>
