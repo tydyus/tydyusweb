@@ -1,25 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from 'react';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import ProjetType from "./json/projets";
+//HOME
+import HomeContact from './page/home/Contact';
+import HomeJob from './page/home/Job';
+import HomeProfil from './page/home/Profil';
+import HomeProjets from './page/home/Projet';
+import HomeSkill from './page/home/Skill';
+//PROJET
+import ProjetTag from './page/projet/Tag';
+import ProjetProfil from './page/projet/Profil';
+import ProjetContent from './page/projet/Projet';
+import ProjetPicture from './page/projet/Picture';
+
 
 function App() {
+  const data = require ("./json/projets.json") as Array<ProjetType>;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      
+        {/* HOME */}
+        <Route path='/' exact render = { () =>
+        <div className="container CHome">
+          <Fragment>
+            <HomeProfil />
+            <HomeJob />
+            <HomeSkill />
+            <HomeContact />
+            <HomeProjets data={data} />
+            <article className="breath bg-hachure ClipHalfBlock"></article>
+          </Fragment>
+        </div>
+        }/>
+
+        {/* PROJETS */}
+        <Route path='/projets/:id' exact render = { () =>
+        <div className="container CProjets">
+            <Fragment>
+              <ProjetProfil data={data} />
+              <ProjetTag data={data} />
+              <ProjetContent data={data} />
+              <ProjetPicture data={data} />
+              <a className="backToHome bgFullPurple" href="/"><i className="fas fa-arrow-left"></i></a>
+            </Fragment>
+        </div>
+        }/>
+
+    </Router>
   );
 }
 

@@ -1,0 +1,71 @@
+[
+    {
+        "id" : 0,
+        "title" : "RPG textuel en ligne",
+        "content1" : "Template de jeu en ligne.",
+        "content2" : ["Projet de template pour un jeu tactique à l'image des livres dont vous êtes le héros avec des mécaniques suplémentaire et une structure modulable",
+        "HTML/CSS . TypeScript . Firebase"],
+        "content3" : [
+            "(Ce projet étant en cour de dévellopement il peut y avoir quelques bugs sur la page et incohérences sur l'histoire de démo, à noter d'ailleur que les sauvegardes sont remises à zero à chaque mise à jour majeur )",
+            "Jeux d'exploration aventure en ligne, le template permet une navigation de scène een scène au travers de chemin.",
+            "Chaque chemin est scène possède des conditions d'entrée et de sortie ainsi que d'autre évenement tel que du gain/pertes d'item, redirection, ..",
+            "A l'exception d'un système de combat en cour de design la structure du code est casiment finie et un écrivain travaille actuellement sur une histoire pour mettre en application le projet"
+        ],
+        "image" : "twiymMin.png",
+        "imageFond" : "white",
+        "link" : "http://twiym.tydyus.eu/",
+        "tag":"WEB"
+    },
+    {
+        "id" : 1,
+        "title" : "Agence d'architecture - website mockup",
+        "content1" : "Exercice de webDesign.",
+        "content2" : [
+            "Site vitrine d'une agence d'architecture avec un générateur de plan d'aménagement interieur avec generation de pièces aléatoire.",
+            "HTML/CSS . TypeScript"
+        ],
+        "content3" : [
+            "Site maquette orienté pour une agence d'architecture, le but de l'excercice était d'intégrer au site un outil de création de plan basique pour l'user.",
+            "L'outil peut gérer l'export et import des plans, des items peuvent facilement être rajouté à la base de donné et un générateur de mur est présent pour donné de l'inspiration à l'user."
+        ],
+        "image" : "prjAvenir.PNG",
+        "imageFond" : "white",
+        "link" : "http://avenir.tydyus.eu",
+        "tag":"WEB"
+    },
+    {
+        "id" : 2,
+        "title" : "Bestiaire des légendes",
+        "content1" : "Un projet composé de 5 affiches inspirées des motifs de l'art irezumi japonais.",
+        "content2" : [
+            "Le mélange de symbolique et de répétition des patterns apportant la force global à ce bestiaire mythique.",
+            "Photoshop . Feutres"
+        ],
+        "content3" : [
+            "Poster de taille A3, deux ont été numérisés à fin commerciale.",
+            ""
+        ],
+        "image" : "bestiaireMin.png",
+        "imageFond" : "white",
+        "link" : "https://www.behance.net/gallery/114500931/Kaiju-Dragon",
+        "tag":"ILLUSTRATION"
+    },
+    {
+        "id" : 3,
+        "title" : "Kill Him With Tea",
+        "content1" : "Jeux en réalité virtuel de BossFight via l'HTC Vive, projet de fin de master à l'enjmin en 2018.",
+        "content2" : [
+            "Dans un environnement limité et oppressant le joueur se retrouve à devoir éliminer le tyran l'ayant pris en otage pour sa cérémonie du thé.",
+            "Blender . UnrealEngine"
+        ],
+        "content3" : [
+            "Le projet à été fait sur une période de 6 mois, j'ai eu à m'occuper de l'animation 3D et d'une partie de son intégratin sur Unreal Engine",
+            "Le reste à été fait par le groupe de master de l'enjmin qui était sur le projet.",
+            "Le jeu à par la suite été présenté au festival VR 'LavalVirtual'de 2018 dans l'espace des projet étudiant prometteur ."
+        ],
+        "image" : "KillHimWithTea.jpg",
+        "imageFond" : "black",
+        "link" : "https://teatimeteam.itch.io/kill-him-with-tea",
+        "tag":"3D"
+    }
+]
