@@ -1,5 +1,4 @@
 import React from 'react';
-import './../css/Home.min.css';
 
 const Job:React.FC = _ => {
   return (

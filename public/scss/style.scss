@@ -1,6 +1,8 @@
 @import "./abstracts/colors";
 @import "./components/burger";
 @import "./components/flex";
+@import "./components/home";
+@import "./components/projet"; 
 
 /* Clean & font */
 *, p{
@@ -10,7 +12,7 @@
     font-weight: 2em;
     transition-duration: 200ms;
 }
-.wrapper, .root{
+.wrapper, .root{ 
     width: 100%;
     overflow-x: hidden; 
     height: 100%;
@@ -34,7 +36,7 @@ h1{
 #darkMode:checked ~ .root h1{ color: $orange};
 p{
     font-size: 0.8em;
-}
+} 
 strong{
     font-size: 1.2em;
 }

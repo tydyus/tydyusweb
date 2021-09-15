@@ -1,5 +1,4 @@
 import React from 'react';
-import './../css/Home.min.css';
 
 const Skill:React.FC = _ => {
   return (

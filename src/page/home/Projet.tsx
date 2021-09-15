@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './../css/Home.min.css';
 import ProjetType from "../../json/projets";
 
 interface Props {data:Array<ProjetType>}

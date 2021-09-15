@@ -1,5 +1,4 @@
 import React from 'react';
-import './../css/Projet.min.css';
 import ProjetType from "./../../json/projets";
 import {useParams} from "react-router-dom";
 

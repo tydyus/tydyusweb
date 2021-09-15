@@ -1,6 +1,5 @@
 import React from 'react';
 import {} from "react-router-dom";
-import './../css/Projet.min.css';
 import ProjetType from "../../json/projets";
 import {useParams} from "react-router-dom";
 
