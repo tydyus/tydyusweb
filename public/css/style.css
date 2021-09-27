@@ -290,7 +290,7 @@ nav .burger a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-  .container {
+  .container.CProjets {
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     -ms-grid-rows: auto;
@@ -300,7 +300,7 @@ nav .burger a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .container {
+  .container.CProjets {
     -ms-grid-columns: 90%;
         grid-template-columns: 90%;
     -ms-grid-rows: auto;

@@ -63,7 +63,7 @@ strong{
 #darkMode:checked:hover ~ .darkModeIco{color:$white;}
 /* Background */
 .bg{
-    background-color: $fond;
+    background-color: $fond; 
     z-index: -10;
     position: fixed;
     width: 100vw;

@@ -10,7 +10,7 @@
                             "bt bt bt bt";
 }
 @media screen and (max-width: 1000px){
-    .container{
+    .container.CProjets{
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
         grid-template-areas:    "mn if"
@@ -21,7 +21,7 @@
     }
 }
 @media screen and (max-width: 600px){
-    .container{
+    .container.CProjets{
         grid-template-columns: 90%;
         grid-template-rows: auto;
         grid-template-areas:    "mn"
